@@ -1,0 +1,4 @@
+{
+  "packages": ["store","lib-app", "component-app","auth", "finops"],
+  "version": "0.0.0"
+}

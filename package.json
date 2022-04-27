@@ -1,0 +1,28 @@
+{
+  "name": "react-webpack-mf",
+  "version": "1.0.0",
+  "description": "A Webpack Module Federation Case In React  ·",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx lerna run start --parallel",
+    "build": "npx lerna run webpack --parallel",
+    "build:dev":"npx lerna run build:dev --parallel",
+    "build:prod":"npx lerna run build:prod --parallel",
+    "start:dev":"npx lerna run start:dev --parallel",
+    "start:prod":"npx lerna run start:prod --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderlaw/react-webpack-MF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderlaw/react-webpack-MF/issues"
+  },
+  "homepage": "https://github.com/anderlaw/react-webpack-MF#readme",
+  "devDependencies": {
+    "lerna": "4.0.0"
+  }
+}

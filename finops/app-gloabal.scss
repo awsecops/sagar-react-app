@@ -1,0 +1,186 @@
+/* finops app css */
+@font-face {
+    font-family:'Proxima Nova' ;
+    src: url('./src/assets/fonts/Proxima\ Nova\ Font.otf')  format("opentype");
+  }
+
+body{
+    background-color: #fff !important;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+.header{
+    background-color: #EEF2FA !important;
+    .nav-wrapper{
+        .ant-menu-light{
+            background-color: transparent !important;
+        }
+
+        .ant-menu-item.ant-menu-item-selected{
+            background-color: white;
+            border: none !important;
+        }
+
+        .ant-menu-item{
+            padding: 20px 40px !important;
+
+            &::after{
+                border: none !important;
+            }
+        }
+
+    }
+}
+
+.menu-control{
+    border-radius: 0px !important;
+    box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.08);
+    border: 0px;
+    .ant-input{
+        border-radius: 0px;
+    }
+}
+
+.nav-profile{
+    border-radius: 0px !important;
+    border: 0px;
+    background: transparent;
+    margin: 0 10px;
+    .ant-image-img{
+        padding-right: 10px;
+    }
+    &:hover{
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .desktop-only{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 681px) {
+    .mobile-only{
+        display: none !important;
+    }
+}
+.burger-menu{
+    vertical-align: 0;
+}
+
+* {
+    border-radius: 0px !important;
+}
+
+/*work manager */
+.work-manager-container{
+    color:#1A234B;
+    font-size: 14px;
+
+    .ant-tag{
+        background-color: #EEF2FA !important;
+        color:#1A234B !important;
+    }
+    
+    .anticon svg{
+        position: relative;
+        top:-3px;
+    }
+    
+    .ant-menu-inline{
+        border:1px solid transparent;
+        
+    }
+    
+    .ant-menu-submenu-open>.ant-menu-submenu-title{
+        border:1px solid #09101D;
+    
+    }
+    .ant-menu-inline{
+        border-right: 1px solid transparent;
+    }
+    .ant-menu-submenu-open  ul.ant-menu-inline{
+        border:1px solid #09101D;
+        margin-top: 5px;
+    }
+    
+    .menu-parent{
+        border:1px solid #eee;
+        background-color: #fff;
+    
+    }
+    .ant-table table{
+        border : 1px solid #eee;
+    }
+    .ant-empty-image{
+        height: auto !important;
+    }
+    .ant-empty-image img{
+        width: 100%;
+    }
+}
+/*Dashboard css*/
+.dashboard-container{
+    background-color: #fff !important;
+    .ant-card-meta-title{
+        font-size: 40px;
+        color:#1A234B;
+        font-weight: bold;
+        margin-bottom: 2px !important;
+    }
+    .ant-card-meta-description{
+        color:#6D7580;
+        font-size: 14px;
+    }
+    .light-green-card{
+        background-color: #E9FFF2;
+    }
+    .light-red-card{
+        background-color: #FFE9E9;
+    }
+    .light-yellow-card{
+        background-color: #FFFEDB;
+    }
+    .light-blue-card{
+        background-color: #ECE9FF;
+    }
+    .light-skyblue-card{
+       background-color:  #E9F7FF;
+
+    }
+    .light-pink-card{
+        background-color: #FFE5FC;
+    }
+
+    .chart-parent{
+        padding:10px 0px;
+    }
+
+    .chart-parent .ant-card{
+        margin: 10px 0px;
+        
+    }
+    
+    
+    .chart-parent .ant-card-head-title{
+        color:#1A234B;
+        font-size: 16px;
+        padding: 20px 0px;
+
+    }
+    .chart-parent .ant-radio-group{
+        margin-bottom: 0px !important;
+    }
+    .chart-parent .ant-card-extra{
+        padding: 10px 0px;
+    }
+    .team-performance .ant-tabs-tab-active{
+        border:1px solid #1A234B;
+
+    }
+
+    .chartimg{
+        
+        width: 100%;
+    }
+}
